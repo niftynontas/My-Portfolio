@@ -1,0 +1,173 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    overflow: visible; /* Allow content outside the viewport to be visible */
+    font-family: 'Varela Round', sans-serif;
+    background: none;
+    color: #e45a8f;
+}
+
+/* Footer Styling */
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: auto; /* Let the height adapt to the content */
+    background-color: #ff6076; /* Match header background */
+    color: #C71585;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between elements */
+}
+
+/* Other Styling (Unchanged from Your Code) */
+.caption { 
+    text-align: center;
+    margin-top: 10px; /* Adds space between the icons and the caption */
+    font-size: 14px; /* Sets the text size */
+    color: #0a0101; /* Changes the text color */
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: block;
+    background: none; /* No background for canvas */
+}
+
+.fa-linkedin-in, .fa-whatsapp, .fa-envelope, .fa-github {
+    font-size: 30px; 
+    color: pink;
+    padding: 0 20px;
+}
+.fa-linkedin-in:hover, .fa-whatsapp:hover, .fa-envelope:hover, .fa-github:hover {
+    color: #C71585; /* Hover color */
+}
+
+#myintro {
+    position: relative; /* Makes the element movable */
+    animation: slideRight 4s ease-in-out; /* Longer duration for visibility */
+    color: #e45a8f; /* Text color */
+    z-index: 5; /* Ensure paragraph is visible */
+    padding: 10px; /* Extra spacing for visibility */
+    font-size: 20px;
+}
+
+main {
+    position: relative;
+    margin-top: 60px; /* Matches the height of your header */
+    overflow: visible; /* Ensures no content is clipped */
+    padding: 20px; /* Optional: Adds space around your content */
+    margin-bottom: 100px; /* Space for the footer */
+}
+
+
+
+button {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #ff6076; /* Matches header and footer background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #c94779; /* Slightly darker for hover */
+    transform: scale(1.05); /* Subtle zoom-in effect */
+}
+
+#contact-form {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffecf1;
+    border: 2px solid #e45a8f;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    font-size: 1.2rem;
+    color: #e45a8f;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact-form button {
+    background-color: #ff6076;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#contact-form button:hover {
+    background-color: #c94779;
+    transform: scale(1.05);
+}
+#intro-container {
+    display: flex; /* Align items side by side */
+    align-items: center; /* Vertically align items */
+    gap: 20px; /* Space between the paragraph and image */
+    margin: 20px 0; /* Add spacing around the container */
+}
+#myintro {
+    flex: 1; /* Allow the paragraph to take up remaining space */
+    font-size: 15px;
+    line-height: 1.6;
+    opacity: 0; /* Start fully invisible */
+    animation: fadeIn 5s forwards; /* Apply fade-in animation */
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0; /* Fully transparent */
+        }
+        to {
+            opacity: 1; /* Fully visible */
+        }
+    }
+    
+
+#intro-image {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid #ff6076; /* Pink border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    object-fit: cover; /* Ensures the image fits within the circle */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+#intro-image:hover {
+    transform: scale(1.1); /* Zoom in slightly */
+    box-shadow: 0 0 15px rgba(214, 54, 75, 0.6); /* Add a glowing effect */
+}
