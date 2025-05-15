@@ -73,5 +73,6 @@ Feel free to reach out via:
 
 💼 GitHub: niftynontas
 
-💬 Final Note
+💬 Final Note :
+
 Thank you for checking out my work. I'm just getting started, but I'm excited about the journey ahead. If you have tips, advice, or want to collaborate, feel free to reach out! 🤝
