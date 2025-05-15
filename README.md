@@ -3,9 +3,9 @@
 Welcome to my personal portfolio website!
 This is where I showcase who I am, the skills I’m learning, and the projects I’m building as I grow in the tech space. 🚀
 
-🔗 Live Site: niftynontas.github.io/My-Portfolio
+🔗 Live Site: https://niftynontas.github.io/My-Portfolio/
 
-📌 Table of Contents
+📌 Table of Contents :
 📖 About Me
 
 ✨ Features
@@ -22,8 +22,8 @@ This is where I showcase who I am, the skills I’m learning, and the projects I
 
 📖 About Me
 Hi there! 👋
-I’m a newbie Front-End Developer based in Nigeria 🇳🇬, learning and growing every day. This website is my digital corner to share what I do, how far I’ve come, and what I’m working on.
-
+I’m Nontando Myoli a newbie Front-End Developer based in South Africa , learning and growing every day. This website is my digital corner to share what I do, how far I’ve come, and what I’m working on.
+I'm a curious front-end beginner passionate about learning, building, and bringing creative ideas to life through code.  I'm also continuously exploring new technologies to expand my skills and stay up-to-date in the ever-evolving tech world.
 “Every expert was once a beginner.” 💡
 That’s me — building one line of code at a time!
 
@@ -45,13 +45,7 @@ Here’s what I used to build this site:
 
 🚀 GitHub Pages – Free hosting
 
-🖼 Screenshots
-(You can upload your screenshots in a screenshots folder and link them below.)
-
-
-
 🚀 Getting Started
-Want to run it locally or customize it?
 
 Clone the repository:
 
